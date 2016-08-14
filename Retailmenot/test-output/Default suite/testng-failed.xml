@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="TestCaseName" value="DealSquad"/>
+  <test name="Default test(failed)">
+    <parameter name="TestCaseName" value="DealSquad"/>
+    <classes>
+      <class name="com.retail.test.Test_Retail">
+        <methods>
+          <include name="testRetailmenot" invocation-numbers="0"/>
+          <include name="launchURL"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.retail.test.Test_Retail -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
